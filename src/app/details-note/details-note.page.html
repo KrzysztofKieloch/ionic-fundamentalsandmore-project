@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-input id="title" [(ngModel)]="note.title"></ion-input>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-textarea [(ngModel)]="note.text" rows="20" placeholder="anything what's on your mind..."></ion-textarea>
+</ion-content>
+<ion-footer> 
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button expand="block" color="success" (click)="updateNote()"> Update </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button expand="block" fill="solid" color="warning" (click)="deleteNote()"> Delete </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button expand="block" fill="solid" color="danger" (click)="closeNote()"> Cancel </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-footer>

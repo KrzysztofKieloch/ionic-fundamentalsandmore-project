@@ -1,3 +1,7 @@
+ion-title {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
 #container {
   text-align: center;
 
@@ -17,11 +21,34 @@
   font-size: 16px;
   line-height: 22px;
 
-  color: #8c8c8c;
+  color: #632626;
 
   margin: 0;
 }
 
 #container a {
   text-decoration: none;
+}
+
+ion-icon {
+  color: #000;
+}
+
+ion-content, ion-footer {
+  --ion-background-color: rgb(59, 135, 125);
+  background-color: rgb(59, 135, 125);;
+} 
+
+.timer-text {
+  transform: rotate(90deg);
+  transform-origin: center;
+  font-size: 36px;
+  text-anchor: middle;
+  font-weight: 600;
+  fill: rgb(59, 135, 125);
+}
+
+#progress-circle {
+  margin-top: 50px;
+  transform: rotate(-90deg); 
 }

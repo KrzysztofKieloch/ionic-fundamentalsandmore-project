@@ -1,0 +1,47 @@
+ion-toolbar{
+    width: 95%;
+    margin: 15px auto;
+    font-weight: 30px;
+    border-radius: 0px;
+    border-radius: 10px;
+  }
+
+  ion-input {
+    --font-weight: large;
+  }
+
+  ion-textarea {
+    background-color: white;
+    width: 95%;
+    padding: 5px;
+    margin: 5px auto;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  ion-content {
+    --ion-background-color: rgb(59, 135, 125);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  ion-header {
+    background-color: rgb(59, 135, 125); 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  ion-footer {
+    background-color: rgb(59, 135, 125);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  #title {
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  ion-button {
+    width: 95%;
+    margin: 5px auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }

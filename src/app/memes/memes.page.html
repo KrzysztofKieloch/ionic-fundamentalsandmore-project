@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title size="large"> Jokes </ion-title>
+    <ion-buttons slot="primary">
+      <ion-button (click)="logOut()">
+        <ion-icon size="large" name="log-out-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle style="text-align: center;">Random joke</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+        <ion-item style="text-align: center;" *ngFor="let joke of jokes">
+         {{ joke.value }}
+        </ion-item>
+    </ion-card-content>
+    <ion-button icon-only expand="full" (click)="getRandomJoke()">
+      <ion-icon size="large" name="happy-outline"></ion-icon>
+    </ion-button>
+  </ion-card>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="4" *ngFor="let category of categories" (click)="searchByCategory(category)">
+      <ion-item id="category" button> {{ category }} </ion-item>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

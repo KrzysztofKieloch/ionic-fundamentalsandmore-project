@@ -1,0 +1,26 @@
+ion-item {
+    --ion-background-color: white;
+    width: 95%;
+    margin: 15px auto;
+    font-weight: normal;
+    border-radius: 0px;
+    --border-radius: 10px;
+  }
+
+  ion-content {
+    --ion-background-color: rgb(59, 135, 125);
+  } 
+
+  ion-fab-button {
+    --background: #fff;
+  }
+
+  ion-icon {
+      color: #000;
+  }
+
+  ion-title {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  
